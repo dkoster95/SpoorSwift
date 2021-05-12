@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class Log: Logger {
+public class InMemoryLogger: Logger {
     private let shortcutId: String
     
     public init(_ shortcutId: String) {
